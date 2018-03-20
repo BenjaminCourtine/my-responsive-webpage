@@ -166,10 +166,42 @@ header {
     color: #3C4652;
 }
 
+/*css twitter*/
+
 .twitter {
+    font-family: "Segoe UI";
     min-height: 32vh;
+    background-color: deepskyblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.twitter-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter-section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.first-line .fa-twitter {
+    margin-left: 600px;
+}
+
+.twitter-content {
+    width: 50%;
+}
 .presentation {
     min-height: 48vh;
 }
