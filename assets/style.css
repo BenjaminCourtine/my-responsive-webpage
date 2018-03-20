@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex-direction: row;
+    color: white;
+}
+
+.container {
+    border: solid black 2px;
+}
+
+.grid-item {
+    border: solid black 2px;
+}
+
+.e-letter {
+    color: dodgerblue;
+}
+
+.menu-items {
+    margin-right: 25px;
+    font-size: 10px;
+}
+
+.menu {
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.header {
+    background-image: url("header-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Segoe UI";
+}
+
+.title {
+    font-family: "Segoe UI";
+    font-size: 16px;
+}
+
+.slogan {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -25px;
+    color: white;
+}
+
+/*css services section*/
+
+.services-block {
+    font-family: "Segoe UI";
+    min-height: 40vh;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+}
+
+.services {
+    min-height: 20vh;
+    color: white;
+    margin: auto;
+}
+
+.services-content {
+    display: flex;
+    font-size: 12px;
+}
+
+.services-element {
+    margin-right: 5vh;
+}
+
+.services-element img {
+    margin-bottom: 10px;
+}
+.services-section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.littleLine {
+    background-color: white;
+    width: 35px;
+    height: 1px;
+    margin-bottom: 20px;
+}
+.services-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.services-element p {
+    font-family: "Segoe UI";
+    font-size: 11px;
+}
+
+.portfolio {
+    min-height: 80vh;
+}
+
+/*css default section*/
+
+.default-section {
+    min-height: 48vh;
+    background-color: #4B636D;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.default-section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.default-section .littleLine {
+    background-color: white;
+    width: 35px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.default-section-text {
+    width: 30%;
+    height: 60%;
+}
+
+.default-section-text p {
+    font-size: 13px;
+}
+
+.default-section-vdo {
+    margin-left: -200px;
+}
+.default-section img {
+    width: 380px;
+}
+
+.default-section button {
+    background: none;
+    width: 95px;
+    border: solid #3C4652;
+    height: 27px;
+    color: #3C4652;
+}
+
+.twitter {
+    min-height: 32vh;
+}
+
+.presentation {
+    min-height: 48vh;
+}
+
+.testimonials {
+    min-height: 36vh;
+}
+
+.contact {
+    min-height: 80vh;
+}
+
+footer {
+    min-height: 16vh;
+}
