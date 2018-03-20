@@ -72,6 +72,7 @@ header {
     background-color: deepskyblue;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .services {
@@ -111,7 +112,7 @@ header {
 
 .services-element p {
     font-family: "Segoe UI";
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .portfolio {
@@ -143,7 +144,7 @@ header {
     margin-bottom: 20px;
 }
 .default-section-text {
-    width: 30%;
+    width: 33%;
     height: 60%;
 }
 
@@ -179,6 +180,10 @@ header {
     align-items: center;
 }
 
+.twitter-content {
+    width: 63%;
+}
+
 .twitter-title {
     display: flex;
     flex-direction: column;
@@ -196,18 +201,74 @@ header {
 }
 
 .first-line .fa-twitter {
-    margin-left: 600px;
+    margin-left: 850px;
+    font-size: 20px;
 }
 
-.twitter-content {
-    width: 50%;
+.twitter p {
+    font-size: 20px;
 }
+
+
+/*css presentation*/
+
 .presentation {
     min-height: 48vh;
-}
+    background-image: url("bg_who_is_john_doe.png");
+    background-repeat: no-repeat;
+    background-size: 100% 48vh;}
+
+/*css testimonials*/
 
 .testimonials {
+    font-family: "Segoe UI";
     min-height: 36vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-content {
+    width: 63%;
+}
+
+.testimonials-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials .littleLine {
+    background-color: black;
+    width: 35px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials-section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.first-line .fa-quote-right {
+    margin-left: 820px;
+    color: black;
+    font-size: 20px;
+}
+
+.testimonials p {
+    font-size: 20px;
+}
+
+.signature {
+    font-size: 6;
+    color: #00b3ff;
 }
 
 .contact {
