@@ -14,11 +14,11 @@
 <header>
     <h1><span class="title">blu<span class="e-letter">e</span>asy</span></h1>
     <div class="menu">
-        <span class="menu-items">home</span>
-        <span class="menu-items">services</span>
-        <span class="menu-items">features</span>
-        <span class="menu-items">portfolio</span>
-        <span class="menu-items">contact</span>
+        <a href="#"><span class="menu-items">home</span></a>
+        <a href="#services"><span class="menu-items">services</span></a>
+        <a href="#features"><span class="menu-items">features</span></a>
+        <a href="#portfolio"><span class="menu-items">portfolio</span></a>
+        <a href="#contact"><span class="menu-items">contact</span></a>
     </div>
 </header>
 
@@ -28,7 +28,7 @@
         <p class="slogan">i'm looking for things i've never seen before".</p>
     </div>
     <div class="grid-item services-block">
-        <section class="services">
+        <section class="services" id="services">
             <span class="services-section-title">services</span><br>
             <div class="littleLine"></div>
             <div class="services-content">
@@ -72,11 +72,11 @@
         </section>
     </div>
     <div class="grid-item">
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             PORTFOLIO
         </section>
     </div>
-    <div class="grid-item default-section">
+    <div class="grid-item default-section" id="features">
         <div class="default-section-text">
             <span class="default-section-title">just default section</span>
             <div class="littleLine"></div>
@@ -136,6 +136,7 @@
                     <div class="presentation-icons">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <i class="fa fa-google" aria-hidden="true"></i>
+                        <i class="far fa-basketball-ball"></i>
                         <i class="fa fa-coffee"></i>
                     </div>
                 </div>
@@ -143,22 +144,56 @@
         </div>
     </div>
     <div class="grid-item testimonials">
-            <div class="testimonials-content">
-                <div class="first-line">
-                    <div class="testimonials-title">
-                        <span class="testimonials-section-title">testimonials</span>
-                        <div class="littleLine"></div>
-                    </div>
-                    <i class="fa fa-quote-right"></i>
+        <div class="testimonials-content">
+            <div class="first-line">
+                <div class="testimonials-title">
+                    <span class="testimonials-section-title">testimonials</span>
+                    <div class="littleLine"></div>
                 </div>
-                <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon </p>
-                <p>cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
-                <span class="signature">walter white</span>
+                <i class="fa fa-quote-right"></i>
             </div>
+            <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon </p>
+            <p>cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
+            <span class="signature">walter white</span>
+        </div>
     </div>
-    <div class="grid-item">
-        <section class="contact">
-            CONTACT
+    <div class="grid-item contact" id="contact">
+        <section class="contact-content">
+            <div class="contact-title">
+                <span class="contact-section-title">contact</span>
+                <div class="littleLine"></div>
+            </div>
+            <form>
+                <div class="input">
+                    <div>
+                        <label>full name</label><br>
+                        <input type="text" name="full-name">
+                    </div>
+
+                    <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar.<br>
+                        Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate <br>bar gingerbread
+                        lollipop tart.Jujubes bear claw donut chupa chups.
+                    </p>
+                </div>
+
+                <div class="input">
+                    <div>
+                        <label>email</label><br>
+                        <input type="email" name="email">
+                    </div>
+
+                    <p>Linda Newman<br>
+                        W325 State Road 123<br>
+                        Mondovi, WI(Wisconsin) 98746-54321<br>
+                        (715) 946 - 1234
+                    </p>
+                </div>
+
+                <label>message</label><br>
+                <textarea></textarea><br>
+                <button>message</button>
+
+            </form>
         </section>
     </div>
     <div class="grid-item">
@@ -170,3 +205,4 @@
 
 </body>
 </html>
+

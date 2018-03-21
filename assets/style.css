@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
 }
@@ -17,6 +20,10 @@ header {
     color: white;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
 .container {
     border: solid black 2px;
 }
@@ -32,6 +39,14 @@ header {
 .menu-items {
     margin-right: 25px;
     font-size: 10px;
+}
+
+header a :hover{
+    color: #00C0FF;
+    border: 2px solid #00C0FF;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .menu {
@@ -316,8 +331,71 @@ header {
     color: #00b3ff;
 }
 
+/*css contact*/
+
 .contact {
     min-height: 80vh;
+    background-image: url("bg_contact.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact-content {
+    width: 63%;
+    font-family: "Segoe UI";
+}
+
+.contact-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.contact-content label {
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-content input {
+    margin-right: 100px;
+    height: 4vh;
+    width: 40vh;
+    background: transparent;
+    border: solid white 2px;
+}
+
+.contact-content p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.contact-content textarea {
+    height: 18vh;
+    width: 100vh;
+    background: transparent;
+    border: solid white 2px;
+}
+
+.contact-content button {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    color: white;
+    height: 5vh;
+    width: 30vh;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2.5vh;
 }
 
 footer {
