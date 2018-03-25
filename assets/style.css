@@ -1,3 +1,5 @@
+/*hidden class only used in JS file*/
+
 .hidden {
     display: none;
 }
@@ -28,13 +30,6 @@ header {
 header a {
     text-decoration: none;
     color: white;
-}
-.container {
-    /*border: solid black 2px;*/
-}
-
-.grid-item {
-    /*border: solid black 2px;*/
 }
 
 .e-letter {
@@ -160,7 +155,6 @@ blockquote {
 .portfolio-menu {
     display: flex;
     justify-content: space-between;
-    /*margin-top: -70px;*/
     margin-bottom: 30px;
 }
 
@@ -532,9 +526,14 @@ footer div {
         margin-left: 20%;
     }
 
+    .services-section-title {
+        margin-top: 5%;
+    }
+
     .services-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 10% 0;
     }
 
     /*css portfolio*/
@@ -644,6 +643,7 @@ footer div {
     .services-section-title {
         width: 45%;
         margin: auto;
+        margin-top: 5%;
     }
     .services-content {
         display: grid;
