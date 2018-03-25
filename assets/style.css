@@ -290,6 +290,12 @@ blockquote {
     font-weight: bold;
 }
 
+.twitter .littleLine {
+    background-color: white;
+    height: 2px;
+    width: 3.5vh;
+}
+
 
 /*css presentation*/
 
@@ -410,6 +416,16 @@ blockquote {
 .contact-content {
     width: 63%;
     font-family: "Segoe UI";
+}
+
+.contact-title .littleLine {
+    background-color: white;
+    height: 2px;
+    width: 3.5vh;
+}
+
+.contact-title {
+    margin-bottom: 4%;
 }
 
 .contact-title {
@@ -639,7 +655,11 @@ footer div {
 
     .default-section-vdo img {
         width: 70%;
-        margin-top: 5%;
+        margin: 5% auto;
+    }
+
+    .default-section-text {
+        margin-top: 3vh;
     }
 
     /*css twitter*/
@@ -651,5 +671,86 @@ footer div {
 
     .first-line {
         margin-top: 5%;
+    }
+
+    /*css presentation*/
+
+    .presentation-content {
+        margin: 5% 0;
+    }
+
+    .presentation-icons > * {
+        margin-right: 10px;
+        font-size: 20px;
+        outline: 2px solid #CCC;
+        border: 7px solid rgba(0, 0, 255, 0);
+    }
+
+    .presentation-icons {
+        text-align: center;
+    }
+
+    .presentation-content .littleLine {
+        width: 15%;
+    }
+
+    /*css testimonials*/
+
+    .first-line .fa-quote-right {
+        margin-left: 40%;
+    }
+
+    .testimonials-content {
+        margin: 5% 0;
+    }
+
+    /*css contact*/
+
+    .contact textarea {
+        width: 40vh;
+    }
+
+    .contact-content {
+        width: 72%;
+    }
+
+    /*css footer*/
+
+    .footer-menu {
+        height: 4vh;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        min-height: 30vh;
+        width: 100%;
+        background-color: #1D3235;
+        color: #39666C;
+
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        text-align: center;
+    }
+
+    .copyright {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer span {
+        height: 4vh;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .footer-menu-bar {
+        display: none;
     }
 }
