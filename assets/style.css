@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
     height: 100%;
@@ -190,6 +194,14 @@ blockquote {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.portfolio img:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+.portfolio-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .img-items {
     margin-bottom: 25px;
 }
@@ -231,9 +243,6 @@ blockquote {
 
 .default-section-vdo {
     margin-left: -200px;
-}
-.default-section img {
-    width: 380px;
 }
 
 .default-section button {
@@ -574,7 +583,7 @@ footer div {
         flex-direction: column;
     }
     .default-section-vdo {
-        margin: auto;
+        margin: 5% 0;
     }
 
     /*css presentation*/
@@ -606,6 +615,24 @@ footer div {
 
     .slogan {
         font-size: 27px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu a {
+        display: flex;
+    }
+
+    .menu span {
+        font-size: 10px;
     }
 
     blockquote {
@@ -653,9 +680,10 @@ footer div {
         text-align: center;
     }
 
-    .default-section-vdo img {
-        width: 70%;
+    .default-section-vdo iframe {
         margin: 5% auto;
+        width: 284px;
+        height: 160px;
     }
 
     .default-section-text {
