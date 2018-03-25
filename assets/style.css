@@ -608,4 +608,48 @@ footer div {
         text-align: center;
     }
 
+    /*css portfolio*/
+
+    .portfolio-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10%;
+    }
+
+    .portfolio img {
+        width: 18vh;
+        height: 18vh;
+    }
+
+    .portfolio-title {
+        margin: auto;
+    }
+
+    .portfolio-type {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*css default section*/
+
+    .default-section-vdo {
+        text-align: center;
+    }
+
+    .default-section-vdo img {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    /*css twitter*/
+
+    .first-line .fa-twitter {
+        margin-left: 70%;
+        font-size: 20px;
+    }
+
+    .first-line {
+        margin-top: 5%;
+    }
 }
